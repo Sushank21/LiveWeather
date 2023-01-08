@@ -44,7 +44,7 @@ import java.util.jar.Manifest
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var mFusedLocationClient : FusedLocationProviderClient // TO get the latitude and longitude of the client.
+    private lateinit var mFusedLocationClient : FusedLocationProviderClient
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
